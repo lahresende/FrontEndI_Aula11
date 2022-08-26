@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.header-principal {
+  background-color: #222222;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 5px;
+
+  background: #222222;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.lista-menu-topo {
+  float: right;
+  color: #f3f3f3;
+  transition: background 0.4s;
+  list-style: none;
+}
+
+.menu-topo {
+  display: inline;
+  padding: 0;
+  align-content: top;
+}
+.lista-menu-topo li {
+  display: inline;
+  padding: 10px;
+}
+.lista-menu-topo li a {
+  display: inline-block;
+  padding: 25px;
+  color: #f3f3f3;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+}
+.lista-menu-topo li a:hover {
+  background-color: red;
+}
+
+.footer-principal {
+  background-color: #222222;
+  padding: 20px;
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-between;
+}
+
+.lista-menu-footer {
+  float: right;
+  color: #f3f3f3;
+  transition: background 0.4s;
+  list-style: none;
+}
+
+.menu-footer {
+  display: inline;
+  padding: 0;
+}
+.lista-menu-footer li {
+  display: inline;
+  padding: 10px;
+}
+.lista-menu-footer li a {
+  display: block;
+  padding: 2px;
+  color: #f3f3f3;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+  flex-direction: column;
+}
+.lista-menu-footer li a:hover {
+  background-color: red;
+}
+
+.retangulo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delivery {
+  display: block;
+}
+.falling {
+  width: 92px;
+  height: 129px;
+  left: 839px;
+  top: 267px;
+  justify-content: space-around;
+}
+.foto {
+  display: flex;
+  width: 490px;
+  height: 350px;
+  left: 19px;
+  top: 500x;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+}
+.retangulo2 {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 700px;
+  height: 550px;
+  left: 19px;
+  top: 500x;
+  border-radius: 5px;
+}
+
+.cardapio {
+  padding: 28px;
+  color: red;
+}
+
+.pizzas {
+  display: flex;
+  text-decoration: none;
+  font-style: normal;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  align-items: center;
+}
+.pizzas li {
+  display: block;
+  padding: 10px;
+  align-content: center;
+}
+
+.pizzas li a {
+  display: block;
+  padding: 2px;
+  color: #222222;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 19px;
+  flex-direction: column;
+  text-align: left;
+}
